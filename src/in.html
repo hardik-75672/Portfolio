@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .images {
+            position: relative;
+          }
+          
+          .images .bottom-image {
+            width: 100%;
+            position: relative;
+            z-index: 5;
+            opacity: .9
+          }
+          
+          .images .top-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            opacity: .9;
+            z-index: 4;
+          }
+
+          .bottom-image{
+            
+          }
+    </style>
+</head>
+<body>
+    <div class="col-sm-6 col-xs-6 images">
+        <img class="bottom-image" src="./asset/blob.png"/>
+        <img class="top-image" src="./asset/anil.png"/>
+      </div>
+</body>
+</html>
