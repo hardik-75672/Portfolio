@@ -12,6 +12,7 @@ export { default as java } from "./java.png";
 export { default as html } from "./html.png";
 export { default as js } from "./js.webp";
 export { default as email} from  './email.png'
+export { default as sudoku} from  './sudoku.jpg'
 
 export { default as Major } from "./major.png";
 export { default as Hardik } from "./Hardik.png";
@@ -20,10 +21,10 @@ export { default as Profile_h } from "./profile_h.jpeg";
 
 export { default as CSS3 } from "./css3.svg";
 export { default as HTML5 } from "./html.svg";
-export { default as github } from "./github.svg";
-export { default as deploy } from "./deploy.svg";
-export { default as github1} from "./github12.svg";
-export { default as deploy1 } from "./deploy12.svg";
+export { default as github } from "./guthub_png.png";
+export { default as deploy } from "./link_png.png";
+export { default as github1} from "./github_white.png";
+export { default as deploy1 } from "./link-white.png";
 export { default as link } from "./link.svg";
 export { default as Javascript } from "./javascript.svg";
 export { default as Python } from "./python.svg";

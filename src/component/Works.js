@@ -2,7 +2,7 @@ import React from "react";
 import projects from "./Data.jsx";
 import { github, deploy,github1, deploy1} from "../assets";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import {Link} from 'react-router-dom'
 const Works = ({ darkMode }) => {
   const value = darkMode;
   console.log(darkMode);
@@ -21,7 +21,7 @@ const Works = ({ darkMode }) => {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             key={index}
-            className="w-[350px] h-[440px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md md:h-[420px] lg:h-[420px] dark:bg-[#04133e]"
+            className="w-[350px] h-[470px] cursor-pointer shadow-xl hover:scale-110 ease-in-out duration-300 rounded-md md:h-[450px] lg:h-[450px] dark:bg-[#04133e]"
           >
             <img
               src={p.imgsrc}
@@ -34,19 +34,22 @@ const Works = ({ darkMode }) => {
                 {p.title}
               </h4>
               <p className="text-sm text-gray-600 font-normal px-3 uppercase">
-                Taskify is a web-based todo list application designed to help
-                users manage their tasks efficiently and stay organized.
+              {p.desc}
               </p>
 
               
                 {!value ? (<div className="flex">
+                <a href={p.link} target="_blank">
 
                 <img src={github} className="object-cover m-3 w-10 h-10 rounded-full "></img>
+                </a>
                 <img src={deploy} className="object-cover m-3 w-10 h-10  "></img>
                   </div>):(
                     <div className="flex">
 
+<a href={p.link} target="_blank">
                     <img src={github1} className="object-cover opacity-80 m-3 w-10 h-10 rounded-full "></img>
+                  </a>
                     <img src={deploy1} className="object-cover  opacity-70  m-3 w-10 h-10 "></img>
                       </div>
                   )}

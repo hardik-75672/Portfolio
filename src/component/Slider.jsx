@@ -10,7 +10,7 @@ function AutoPlay() {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
+    speed: 5000,
     autoplaySpeed: 3000,
     cssEase: "linear"
   };
@@ -54,7 +54,7 @@ function AutoPlay() {
     <div className='w-full flex flex-col py-20 px-8 md:px-10 gap-10 lg:gap-20 lg:py-20'>
     <div className="slider-container q">
         <h4 className='text-3xl font-bold text-black dark:text-white mt-10 '>
-        Projetcs
+        Reviews ⭐
       </h4>
       <Slider {...settings}>
         {data.map((d)=>(
