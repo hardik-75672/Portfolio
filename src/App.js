@@ -17,7 +17,7 @@ import Drashti from "./Drashti.js";
 AOS.init();
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
