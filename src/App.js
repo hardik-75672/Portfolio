@@ -65,7 +65,7 @@ function App() {
         </section>
         <section
           id="slider"
-          className="w-full px-0 lg:px-5 2xl:px-40 text-black py-10 lg:py-0 dark:bg-[#030e2e] dark:text-white"
+          className=" w-full px-0 lg:px-5 2xl:px-40 text-black py-10 lg:py-0 dark:bg-[#030e2e] dark:text-white sm:block "
         >
           <Slider1 />
         </section>

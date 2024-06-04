@@ -19,39 +19,39 @@ function AutoPlay() {
     name:"Shivani  M. Patel",
     time:"10 Days ago",
     rating:4,
-    desc:"An exemplary showcase of talent and versatility. The portfolio elegantly encapsulates creativity and proficiency across diverse projects. Each piece exudes precision and innovation, demonstrating a remarkable skill set. Truly impressive work."
+    desc:"Highly reliable and dedicated; always meets deadlines with quality work."
   },
   {
     img:"https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     name:"Harshil D. Dudhat",
     time:"45 Days ago",
     rating:4.5,
-    desc:"An exemplary showcase of talent and versatility. The portfolio elegantly encapsulates creativity and proficiency across diverse projects. Each piece exudes precision and innovation, demonstrating a remarkable skill set. Truly impressive work."
+    desc:"Exceptional problem-solving skills; consistently delivers innovative and effective solutions."
   },
   {
     img:"https://images.unsplash.com/photo-1513152697235-fe74c283646a?q=80&w=1896&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     name:"Karan  F. Ghaduk",
     time:"1 Days ago",
     rating:4.9,
-    desc:"An exemplary showcase of talent and versatility. The portfolio elegantly encapsulates creativity and proficiency across diverse projects. Each piece exudes precision and innovation, demonstrating a remarkable skill set. Truly impressive work."
+    desc:"Great communication skills; excels in team collaboration and client interactions."
   },
   {
     img:"https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     name:"Hardik B. Savaliya",
     time:"8 Days ago",
     rating:5,
-    desc:"An exemplary showcase of talent and versatility. The portfolio elegantly encapsulates creativity and proficiency across diverse projects. Each piece exudes precision and innovation, demonstrating a remarkable skill set. Truly impressive work."
+    desc:"Remarkable attention to detail; ensures accuracy and precision in all tasks."
   },
   {
     img:"https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?q=80&w=1868&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     name:"Harsh R. Vaghani",
     time:"30 Days ago",
     rating:3.9,
-    desc:"An exemplary showcase of talent and versatility. The portfolio elegantly encapsulates creativity and proficiency across diverse projects. Each piece exudes precision and innovation, demonstrating a remarkable skill set. Truly impressive work."
+    desc:"Strong leadership abilities; motivates and guides the team to success."
   },]
   
   return (
-    <div className='w-full flex flex-col py-20 px-8 md:px-10 gap-10 lg:gap-20 lg:py-20'>
+    <div className='w-full flex flex-col py-20 px-8 md:px-10 gap-10 lg:gap-20 lg:py-20   '>
     <div className="slider-container q">
         <h4 className='text-3xl font-bold text-black dark:text-white mt-10 '>
         Reviews ⭐
@@ -77,7 +77,7 @@ function AutoPlay() {
 	</div>
 	<div className="p-4 space-y-2 text-sm text-white-600">
 		{/* <p>Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu dictum lectus consequat vitae. Etiam ut dolor id justo fringilla finibus.</p> */}
-		<p>An exemplary showcase of talent and versatility. The portfolio elegantly encapsulates creativity and proficiency across diverse projects. Each piece exudes precision and innovation, demonstrating a remarkable skill set. Truly impressive work.</p>
+		<p>{d.desc}</p>
 	</div>
 </div>
         ))}
