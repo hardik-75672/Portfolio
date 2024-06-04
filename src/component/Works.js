@@ -3,9 +3,21 @@ import projects from "./Data.jsx";
 import { github, deploy, github1, deploy1 } from "../assets";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import { useToast } from "@chakra-ui/toast";
 const Works = ({ darkMode }) => {
   const value = darkMode;
+  const toast = useToast();
   console.log(darkMode);
+  const show = () => {
+    return toast({
+      title: "Error Occured!",
+      description: "Failed to Load the chats",
+      status: "error",
+      duration: 5000,
+      isClosable: true,
+      position: "top-left",
+    });
+  };
   return (
     <div className="w-full flex flex-col py-20 px-8 md:px-10 gap-10 lg:gap-20 lg:py-20">
       <h4 className="text-3xl font-bold text-black dark:text-white mt-10 ">
@@ -45,10 +57,14 @@ const Works = ({ darkMode }) => {
                       className="object-cover m-3 w-10 h-10 rounded-full "
                     ></img>
                   </a>
-                  <img
-                    src={deploy}
-                    className="object-cover m-3 w-10 h-10  "
-                  ></img>
+                  {p.link2 && (
+                    <a href={p.link2} target="_blank">
+                      <img
+                        src={deploy}
+                        className="object-cover m-3 w-10 h-10  "
+                      ></img>
+                    </a>
+                  )}
                 </div>
               ) : (
                 <div className="flex">

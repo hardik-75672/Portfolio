@@ -15,49 +15,63 @@ const data = [
         imgsrc:ecommerce,
         title: "Ecommerce",
         link: "https://github.com/Hardik-75672/ecommerce-backend",
-        desc:"Ecommerce website use for update personal information, view order history, and add items to their cart, review selections, and proceed to checkout."
+        desc:"Ecommerce website use for update personal information, view order history, and add items to their cart, review selections, and proceed to checkout.",
+        link2:"https://ecommerce-backend-two-khaki.vercel.app/login"
 
     },
       {
         imgsrc:chat,
         title: "TalkBuddy",
         link: "https://github.com/Hardik-75672/TalkBuddy",
-        desc:" A real-time chat application features such as user authentication ,group chat and message notifications to enhance user experience."
-
+        desc:" A real-time chat application features such as user authentication ,group chat and message notifications to enhance user experience.",
+        link2:"https://talkbuddy-1.onrender.com"
     },
 
   {
     imgsrc:drive,
     title: "DriveMaster",
     link: "https://github.com/hardik-75672/DriveMaster",
-    desc:"Collaborative cloud storage application similar to Google Drive,solution enabling secure file sharing, real-time editing, and seamless teamwork."
+    desc:"Collaborative cloud storage application similar to Google Drive,solution enabling secure file sharing, real-time editing, and seamless teamwork.",
+    link2:""
+
     },
+ 
     {
         imgsrc:weather2,
         title: "Weather Website",
         link: "https://github.com/Hardik-75672/Weather-app",
-        desc:"WeatherNow is a web application that provides users with up-to-date weather information for their location and any city worldwide. "
-    },
+        desc:"WeatherNow is a web application that provides users with up-to-date weather information for their location and any city worldwide. ",
+        link2:"https://talkbuddy-1.onrender.com"
+
+},
     {
         imgsrc:  todo ,
         title: "To-Do List",
         link: "",
-        desc:"Taskify is a web-based todo list application designed to help users manage their tasks efficiently and stay organized."
+        desc:"Taskify is a web-based todo list application designed to help users manage their tasks efficiently and stay organized.",
+        link2:""
+
     }, {
         imgsrc:  sudoku ,
         title: "Dynamic sudoku",
         link: "https://github.com/Hardik-75672/Dynamic_sudoku",
-        desc:" Sudoku is a popular logic-based puzzle game where players fill a 9x9 grid with numbers from 1 to 9."
+        desc:" Sudoku is a popular logic-based puzzle game where players fill a 9x9 grid with numbers from 1 to 9.",
+        link2:"https://dynamic-sudoku.vercel.app/"
+
     }, {
         imgsrc:  python ,
         title: "Python Base Ai",
         link: "https://github.com/Hardik-75672/personal-ai",
-        desc:"PersonalAI is a Python-based personal assistant designed to assist users with various tasks, provide useful information, and automate routine activities"
+        desc:"PersonalAI is a Python-based personal assistant designed to assist users with various tasks, provide useful information, and automate routine activities",
+        link2:""
+        
     }, {
         imgsrc:  tic ,
         title: "Tic-Tac Toe",
-        link: "/",
-        desc:"Tic Tac Toe is a timeless classic game enjoyed by people of all ages. This project aims to recreate the traditional Tic Tac Toe game in a digital format"
+        link: "https://github.com/hardik-75672/Tic-Tac-Toe",
+        desc:"Tic Tac Toe is a timeless classic game enjoyed by people of all ages. This project aims to recreate the traditional Tic Tac Toe game in a digital format",
+        link2:"https://tic-tac-toe-kappa-lovat.vercel.app/"
+
     }
 
 ]
