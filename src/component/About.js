@@ -1,5 +1,5 @@
 import React from "react";
-import { Hardik1, Profile_h } from "../assets";
+import { Hardik1, Profile_h, Hardik12, Hero03 } from "../assets";
 import { FaUserAlt } from "react-icons/fa";
 import { MdOutlineAlternateEmail, MdWifiCalling2 } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
@@ -9,7 +9,7 @@ const About = () => {
     <div className="w-full flex flex-col lg:flex-row px-8 md:px-10 gap-10 lg:gap-20 lg:py-20 ">
       <div className="w-full md:h-[290px] h-[290px] lg:w-2/4 flex flex-col items-center  dark:bg-transparent rounded-md">
         <img
-          src={Profile_h}
+          src={Hero03}
           className="h-[290px] p-1 rounded-xl w-auto ease-in-out duration-300  lg:h-[360px] hover:scale-125 "
         />
       </div>
