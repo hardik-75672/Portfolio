@@ -7,7 +7,7 @@ const Drashti = () => {
         <div className="bg-gray-100 p-8">
           <h1 className="text-2xl font-semibold">OUR GALLERY</h1>
           <div className="p-3">
-            <a className="font-light">Home </a>/ <a className=""> Gallery </a>
+            <a href="/" className="font-light">Home </a>/ <a href="/gallery" className=""> Gallery </a>
           </div>
         </div>
       </div>
@@ -15,77 +15,61 @@ const Drashti = () => {
         <div className="container flex justify-between h-10 mx-auto md:justify-center md:space-x-8">
           <ul className="items-stretch hidden space-x-3 text-gray-500 md:flex font-semibold">
             <li className="flex bg-blue-300 rounded-lg">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 All
-              </a>
+              </button>
             </li>
             <li className="flex rounded-lg bg-gray-100">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 EVENTS
-              </a>
+              </button>
             </li>
             <li className="flex rounded-lg bg-gray-100">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 Training Of Trainers (TOT)
-              </a>
+              </button>
             </li>
 
             <li className="flex rounded-lg bg-gray-100">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 Centre Activities
-              </a>
+              </button>
             </li>
             <li className="flex rounded-lg bg-gray-100">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 Centre Inauguration
-              </a>
+              </button>
             </li>
             <li className="flex rounded-lg bg-gray-100">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 Fun Activities & Celebrations
-              </a>
+              </button>
             </li>
             <li className="flex rounded-lg bg-gray-100">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 Fun Activities & Celebrations
-              </a>
+              </button>
             </li>
             <li className="flex rounded-lg bg-gray-100">
-              <a
-                rel="noopener noreferrer"
-                href="#"
+              <button
                 className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
               >
                 DISHA Meet 2019
-              </a>
+              </button>
             </li>
           </ul>
           <button title="Button" type="button" className="p-4 md:hidden">
@@ -110,50 +94,62 @@ const Drashti = () => {
         <div className="container flex flex-col justify-center p-28 mx-auto">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
             <img
+              alt="Gallery image 1"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?1"
             />
             <img
+              alt="Gallery image 2"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?2"
             />
             <img
+              alt="Gallery image 3"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?3"
             />
             <img
+              alt="Gallery image 4"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?4"
             />
             <img
+              alt="Gallery image 5"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?1"
             />
             <img
+              alt="Gallery image 6"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?2"
             />
             <img
+              alt="Gallery image 7"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?3"
             />
             <img
+              alt="Gallery image 8"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?4"
             />
             <img
+              alt="Gallery image 9"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?1"
             />
             <img
+              alt="Gallery image 10"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?2"
             />
             <img
+              alt="Gallery image 11"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?3"
             />
             <img
+              alt="Gallery image 12"
               className="object-cover w-full bg-gray-500 aspect-square h-full rounded-xl"
               src="https://source.unsplash.com/random/300x300/?4"
             />

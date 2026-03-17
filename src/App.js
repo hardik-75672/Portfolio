@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Navbar from "./component/Navbar";
 import Header from "./component/Header";
 import Project from "./component/Project";
 import About from "./component/About";
@@ -12,7 +11,6 @@ import "aos/dist/aos.css";
 import Navbar1 from "./component/Navbar1";
 import Slider1 from "./component/Slider.jsx";
 import Contact from "./component/Contact.js";
-import Drashti from "./Drashti.js";
 
 AOS.init();
 
